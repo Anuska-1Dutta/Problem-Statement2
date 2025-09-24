@@ -1,0 +1,4 @@
+2025-09-24 23:16:59.138591 - Backup created successfully: C:\Users\anusk\OneDrive\Desktop\Backup\backup_20250924_231658.tar.gz
+2025-09-24 23:17:01.421298 - ERROR uploading backup: ssh: connect to host 192.168.29.51 port 22: Connection refused
+scp: Connection closed
+
