@@ -22,3 +22,30 @@ This repository contains two scripts developed as part of *Problem Statement 2*:
 1. Open Terminal and navigate to the script folder:
    ```bash
    cd /path/to/script
+##Make the script executable:
+
+chmod +x system_monitor.sh
+Run the script:
+
+./system_monitor.sh
+Configuration:
+
+Update the following variables in backup.py:
+
+# Folder to backup
+SOURCE_DIR = r"C:\Users\anusk\OneDrive\Desktop\MyData"
+
+# Local backup storage
+BACKUP_DIR = r"C:\Users\anusk\OneDrive\Desktop\Backup"
+
+# Remote server (optional)
+REMOTE_SERVER = "user@remote_host:/path/to/remote/folder"
+Usage:
+
+Open VS Code terminal and navigate to the script folder:
+
+cd "D:\Problem Statement2\Automated Backup"
+
+Run the script:
+
+python backup.py
